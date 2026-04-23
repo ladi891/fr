@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Unscrambler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Word Unscrambler</h1>
+
+  <input id="input" placeholder="Enter scrambled letters..." />
+  
+  <div class="buttons">
+    <button onclick="unscramble()">Unscramble</button>
+    <button onclick="clearInput()">Clear</button>
+  </div>
+
+  <p id="loading" class="hidden">Loading...</p>
+
+  <h3 id="count"></h3>
+  <ul id="results"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
